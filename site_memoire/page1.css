@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+#titre-fixe {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titre-fixe a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    margin-left: 20px; /* Ajustez cette valeur selon vos besoins */
+}
+/*
+.content-header {
+    display: none;
+}
+
+#meteo-humeur {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    width: 80%;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 10%;
+    margin-top: 0;
+}*/
+
+.vertical-align-container {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav {
+    width: 140%;
+    margin: 0px; /* Pour centrer la barre de navigation horizontalement */
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+}
+
+
+/*.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}*/
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Répartit l'espace entre les éléments de manière égale */
+    align-items: center;
+}
+
+nav li {
+    margin-top: 0px;
+    flex-grow: 1; /* Permet à chaque élément de prendre autant d'espace que possible */
+    padding: 10px 20px;
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+    margin-top: 0px;
+    padding: 20px;
+    width: 80%;
+    top: 180px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    clear: both;
+}
